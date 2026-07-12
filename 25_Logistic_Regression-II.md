@@ -287,10 +287,8 @@ X_updated = dataset.iloc[:, [1, 2, 3]].values
 * The column index selection `[4, 7]` explicitly extracts **2 columns**.
 * Therefore, the dimensions of matrix `X` will be exactly **(250, 2)**.
 
-```
 
-```markdown
-# Lecture 26: Facial Recognition Pipeline using Logistic Regression
+## Facial Recognition Pipeline using Logistic Regression
 
 ## 1. Environment Setup & Data Ingestion
 We build an image classification system to recognize political figures using their facial structures. We use the **Labeled Faces in the Wild (LFW)** dataset.
