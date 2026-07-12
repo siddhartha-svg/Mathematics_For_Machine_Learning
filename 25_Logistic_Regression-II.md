@@ -1,4 +1,3 @@
-```markdown
 # Lecture 25: Logistic Regression - II (Practical Implementation)
 
 ## 1. Case Study Overview: Company Dataset Problem
@@ -143,12 +142,7 @@ X_updated = dataset.iloc[:, [1, 2, 3]].values
 * The column index selection `[4, 7]` explicitly extracts **2 columns**.
 * Therefore, the dimensions of matrix `X` will be exactly **(250, 2)**.
 
-```
 
-```
-
-
-```markdown
 # Lecture 25: Logistic Regression - II (Practical Implementation)
 
 ## 1. Case Study Overview: Company Dataset Problem
