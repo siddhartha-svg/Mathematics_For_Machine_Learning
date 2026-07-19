@@ -163,23 +163,21 @@ Else (if there exists at least one non-zero scalar $\alpha_i$ that satisfies the
 ## Examples in $\mathbb{R}^2$
 
 ### Example 1: Linearly Independent Set
+
 Let $S = \{(1, 0), (1, 1)\}$
 
 Set up the vector equation:
 $$\alpha_1 (1, 0) + \alpha_2 (1, 1) = (0, 0)$$
 
 This creates the following system of linear equations:
-
 $$\begin{aligned}
 \alpha_1 + \alpha_2 &= 0 \\
 \alpha_2 &= 0
 \end{aligned}$$
 
-Substituting $\alpha_2 = 0$ into the first equation yields $\alpha_1 = 0$. 
-* Since $\alpha_1 = 0$ and $\alpha_2 = 0$, **$S$ contains LI vectors.**
+Substituting $\alpha_2 = 0$ into the first equation yields $\alpha_1 = 0$.
 
-
-Since $\alpha_1 = 0$ and $\alpha_2 = 0$, $S$ contains **Linearly Independent (LI)** vectors.
+* Since $\alpha_1 = 0$ and $\alpha_2 = 0$, the set $S$ contains **Linearly Independent (LI)** vectors.
 
 ### Example 2: Linearly Dependent Set
 Let $S' = \{(1, 1), (3, 3)\}$
