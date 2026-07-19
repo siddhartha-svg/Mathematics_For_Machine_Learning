@@ -271,9 +271,9 @@ $$v_i \cdot v_j = 0 \quad \text{for } i \neq j$$
 ## Example in $\mathbb{R}^3$
 
 Consider the following set of three vectors:
-$$
-(1,0,-1)\cdot(1,\sqrt{2},1)
-$$
+
+$(1,0,-1)\cdot(1,\sqrt{2},1)$
+
 
 $$
 =(1\times1)+(0\times\sqrt{2})+(-1\times1)
