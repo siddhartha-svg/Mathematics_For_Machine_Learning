@@ -310,7 +310,7 @@ $$\text{Orthonormal} = \text{Orthogonal} + \text{Normalized (Length = 1)}$$
 ### Example
 Consider the set $S = \left\{ \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right), \; \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right) \right\}$
 
-$S = \left\{ \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right), \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right) \right\}$
+$S = \{ \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right), \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right) \}$
 
 1. **Check Orthogonality (Dot Product = 0):**
    $$\left(\frac{1}{\sqrt{2}}\right)\left(\frac{1}{\sqrt{2}}\right) + \left(\frac{1}{\sqrt{2}}\right)\left(-\frac{1}{\sqrt{2}}\right) = \frac{1}{2} - \frac{1}{2} = 0 \quad \checkmark$$
