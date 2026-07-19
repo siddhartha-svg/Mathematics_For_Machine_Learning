@@ -271,7 +271,13 @@ $$v_i \cdot v_j = 0 \quad \text{for } i \neq j$$
 ## Example in $\mathbb{R}^3$
 
 Consider the following set of three vectors:
-$$S = \left\{ (1, 0, -1), \; (1, \sqrt{2}, 1), \; (1, -\sqrt{2}, 1) \right\}$$
+$$
+S = \left\{ 
+(1, 0, -1), \; 
+(1, \sqrt{2}, 1), \; 
+(1, -\sqrt{2}, 1) 
+\right\}
+$$
 
 To check if they are mutually orthogonal, we compute the dot product for every unique pair:
 
