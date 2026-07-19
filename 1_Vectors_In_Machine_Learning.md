@@ -169,6 +169,7 @@ Set up the vector equation:
 $$\alpha_1 (1, 0) + \alpha_2 (1, 1) = (0, 0)$$
 
 This creates the following system of linear equations:
+
 $$\begin{aligned}
 \alpha_1 + \alpha_2 &= 0 \\
 \alpha_2 &= 0
