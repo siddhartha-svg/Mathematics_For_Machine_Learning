@@ -200,8 +200,7 @@ $$\alpha_1 = 1, \quad \alpha_2 = -1, \quad \alpha_3 = 1$$
 
 Substitute them into the linear combination:
 $$\begin{aligned}
-&\alpha_1 (1, -1, 0) + \alpha_2 (1, 0, 1) + \alpha_3 (0, 1, 1) \\
-&= 1(1, -1, 0) + (-1)(1, 0, 1) + 1(0, 1, 1) \\
+\alpha_1 (1, -1, 0) + \alpha_2 (1, 0, 1) + \alpha_3 (0, 1, 1) &= 1(1, -1, 0) + (-1)(1, 0, 1) + 1(0, 1, 1) \\
 &= (1 - 1 + 0, \; -1 + 0 + 1, \; 0 - 1 + 1) \\
 &= (0, 0, 0)
 \end{aligned}$$
