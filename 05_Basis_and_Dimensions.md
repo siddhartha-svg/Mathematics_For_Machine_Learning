@@ -521,71 +521,29 @@ Find the basis and dimension of $S_1$, $S_2$, and $S_1 \cap S_2$, where:
 
 ---
 
+
 ## Detailed Evaluation of Subspace $S_1$
 
 We define $S_1$ using its system of constraints:
 
 $$
-S_1 =
-\left\{
-(x_1, x_2, x_3, x_4)
-\mid
-\begin{aligned}
-x_1 + x_2 - x_3 + x_4 &= 0 \\
-x_1 + x_2 + x_3 + x_4 &= 0
-\end{aligned}
-\right\}
+S_1 = \left\{ (x_1, x_2, x_3, x_4) \;\middle|\; \begin{aligned} x_1 + x_2 - x_3 + x_4 &= 0 \\ x_1 + x_2 + x_3 + x_4 &= 0 \end{aligned} \right\}
 $$
 
-### Step-by-Step Simplification
+### Step-by-Step Simplification:
+1. Subtract the first equation from the second equation:
+   $$(x_1 + x_2 + x_3 + x_4) - (x_1 + x_2 - x_3 + x_4) = 0 \implies 2x_3 = 0 \implies x_3 = 0$$
 
-1. Subtract the first equation from the second:
-
-$$
-(x_1 + x_2 + x_3 + x_4) -
-(x_1 + x_2 - x_3 + x_4)
-= 0
-\Rightarrow
-2x_3 = 0
-\Rightarrow
-x_3 = 0
-$$
-
-2. Substitute $x_3 = 0$ into either equation:
-
-$$
-x_1 + x_2 + x_4 = 0
-\Rightarrow
-x_4 = -x_1 - x_2
-$$
+2. Substitute $x_3 = 0$ back into either equation:
+   $$x_1 + x_2 + x_4 = 0 \implies x_4 = -x_1 - x_2$$
 
 3. Express the general vector using the free variables $x_1$ and $x_2$:
-
-$$
-\begin{aligned}
-S_1
-&=
-\left\{
-(x_1, x_2, 0, -x_1 - x_2)
-\mid
-x_1, x_2 \in \mathbb{R}
-\right\} \\
-&=
-\operatorname{span}
-\left\{
-(1,0,0,-1),
-(0,1,0,-1)
-\right\}
-\end{aligned}
-$$
+   $$
+   \begin{aligned}
+   S_1 &= \{ (x_1, x_2, 0, -x_1 - x_2) \} \\
+       &= \{ x_1(1, 0, 0, -1) + x_2(0, 1, 0, -1) \}
+   \end{aligned}
+   $$
 
 ### Basis of $S_1$
-
-$$
-B_{S_1}
-=
-\left\{
-(1,0,0,-1),
-(0,1,0,-1)
-\right\}
-$$
+$$\Rightarrow B_{S_1} = \{ (1, 0, 0, -1), (0, 1, 0, -1) \}$$
