@@ -200,13 +200,32 @@ $$S = \{v_1, v_2, v_3\} = \{(1, -1, 0), \; (1, 0, 1), \; (0, 1, 1)\}$$
 Let's test if non-zero scalars can satisfy the vector dependency equation. Take the scalars:
 $$\alpha_1 = 1, \quad \alpha_2 = -1, \quad \alpha_3 = 1$$
 
-Substitute them into the linear combination:
-$$\begin{aligned}
-&\alpha_1 (1, -1, 0) + \alpha_2 (1, 0, 1) + \alpha_3 (0, 1, 1) \\
-&= 1(1, -1, 0) + (-1)(1, 0, 1) + 1(0, 1, 1) \\
-&= (1 - 1 + 0, \; -1 + 0 + 1, \; 0 - 1 + 1) \\
-&= (0, 0, 0)
-\end{aligned}$$
+Substitute the scalars into the linear combination:
+
+
+
+$$
+\alpha_1(1,-1,0)+\alpha_2(1,0,1)+
+\alpha_3(0,1,1)
+$$
+
+
+
+$$
+=1(1,-1,0)+(-1)(1,0,1)+1(0,1,1)
+$$
+
+
+
+$$
+=(1-1+0,\,-1+0+1,\,0-1+1)
+$$
+
+
+
+$$
+=(0,0,0)
+$$
 
 * Since a non-trivial solution (where scalars are not all zero) yields the zero vector, **$S$ is a Linearly Dependent (LD) set of vectors.**
 
