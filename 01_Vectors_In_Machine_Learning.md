@@ -272,7 +272,7 @@ $$v_i \cdot v_j = 0 \quad \text{for } i \neq j$$
 
 Consider the following set of three vectors:
 $$
-(1, 0, -1) \cdot (1, \sqrt{2}, 1)
+(1,0,-1)\cdot(1,\sqrt{2},1)
 $$
 
 $$
