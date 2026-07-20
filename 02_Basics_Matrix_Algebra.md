@@ -254,7 +254,24 @@ c_{11} & c_{12} \\
 c_{21} & c_{22} 
 \end{bmatrix}_{2 \times 2}$$
 
----
+
+$$
+\begin{bmatrix}
+a_{11} & a_{12} & a_{13} \\
+a_{21} & a_{22} & a_{23}
+\end{bmatrix}_{2 \times 3}
+\;
+\begin{bmatrix}
+b_{11} & b_{12} \\
+b_{21} & b_{22} \\
+b_{31} & b_{32}
+\end{bmatrix}_{3 \times 2}
+=
+\begin{bmatrix}
+c_{11} & c_{12} \\
+c_{21} & c_{22}
+\end{bmatrix}_{2 \times 2}
+$$
 
 ## Fundamental Operational Rule
 
