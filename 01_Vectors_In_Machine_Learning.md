@@ -308,7 +308,7 @@ A set of orthogonal vectors is **orthonormal** if each individual vector has a l
 $$\text{Orthonormal} = \text{Orthogonal} + \text{Normalized (Length = 1)}$$
 
 ### Example
-Consider the set $S = \left\{ \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right), \; \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right) \right\}$
+Consider the set 
 
 $S = \{ \left(\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}\right), \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right) \}$
 
